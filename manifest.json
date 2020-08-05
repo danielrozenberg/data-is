@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Data Is",
+  "version": "1.0.0",
+  "description": "Unpretentiously replaces all instances of \"data are\" with \"data is\".",
+  "author": "Daniel Rozenberg",
+  "homepage_url": "https://github.com/danielrozenberg/data-is",
+  "permissions": [
+    "*://*/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*/*"
+      ],
+      "js": [
+        "script.js"
+      ],
+      "run_at": "document_end"
+    }
+  ]
+}

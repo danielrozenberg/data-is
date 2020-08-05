@@ -1,0 +1,19 @@
+{
+  "name": "data-is",
+  "version": "1.0.0",
+  "description": "Unpretentiously replaces all instances of \"data are\" with \"data is\".",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danielrozenberg/data-is"
+  },
+  "main": "script.js",
+  "scripts": {
+    "test": "eslint ."
+  },
+  "author": "Daniel Rozenberg",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "6.8.0",
+    "eslint-config-google": "0.14.0"
+  }
+}
